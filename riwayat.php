@@ -33,6 +33,7 @@ if (isset($_GET['solve'])) {
 <!-- link bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
 <script src="js/jquery.js"></script>
 
 <head>

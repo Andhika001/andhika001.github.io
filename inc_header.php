@@ -41,6 +41,7 @@ include 'koneksi.php';
 
 <body style="background-color: #ebecf8;">
    <script src="js/bootstrap.js"></script>
+   <script src="js/bootstrap.bundle.js"></script>
    <script src="js/jquery.js"></script>
    <div id="app">
       <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
@@ -59,7 +60,14 @@ include 'koneksi.php';
                   <li class="nav-item"><a class="nav-link" href="riwayat.php">Riwayat</a></li>
                <?php }; ?>
                <li class="nav-item">
-                  <a class="nav-link" href="logout.php">Logout</a>
+                  <div class="dropdown">
+                     <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Akun
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="logout.php">Keluar</a></li>
+                     </ul>
+                  </div>
                </li>
             </ul>
          </div>

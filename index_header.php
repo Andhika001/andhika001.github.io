@@ -37,6 +37,7 @@
 
 <body style="background-color: #ebecf8;">
    <script src="js/bootstrap.js"></script>
+   <script src="js/bootstrap.bundle.js"></script>
    <script src="js/jquery.js"></script>
    <div id="app">
       <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
